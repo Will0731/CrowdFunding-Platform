@@ -1,0 +1,186 @@
+.s_m_title {
+  color:#00bbd6;
+  padding-left:8px;
+  line-height:2rem;
+  position:relative;
+  letter-spacing:1px
+}
+
+.s_m_title:before {
+  position:relative;
+  left:-5px;top:53px;
+  content:"";
+  display:inline-block;
+  height:25px;
+  width:3px;
+  -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  border-radius:2px;
+  background:#00bbd6
+}
+
+.our_latest_product .s_m_title {
+  padding-top: 55px;
+  padding-bottom: 35px;
+}
+
+.l_product_slider {
+  width: 45%;
+}
+
+.l_product_slider .l_product_slider, .l_product_slider .home_l_product_slider, .home_l_product_slider .l_product_slider, .home_l_product_slider .home_l_product_slider {
+  /*position: absolute;*/
+  right: 0px;
+  top: -65px;
+}
+
+.l_product_slider .l_product_slider .owl-prev, .l_product_slider .home_l_product_slider .owl-prev, .home_l_product_slider .l_product_slider .owl-prev, .home_l_product_slider .home_l_product_slider .owl-prev {
+  margin-right: 15px;
+}
+
+.l_product_slider .l_product_slider .owl-prev, .l_product_slider .l_product_slider .owl-next, .l_product_slider .home_l_product_slider .owl-prev, .l_product_slider .home_l_product_slider .owl-next, .home_l_product_slider .l_product_slider .owl-prev, .home_l_product_slider .l_product_slider .owl-next, .home_l_product_slider .home_l_product_slider .owl-prev, .home_l_product_slider .home_l_product_slider .owl-next {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  font-size: 23px;
+  color: #000;
+  border: 1px solid #cccccc;
+  line-height: 36px;
+  display: inline-block;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+  cursor: pointer;
+}
+
+.l_product_slider .l_product_slider .owl-prev:hover, .l_product_slider .l_product_slider .owl-next:hover, .l_product_slider .home_l_product_slider .owl-prev:hover, .l_product_slider .home_l_product_slider .owl-next:hover, .home_l_product_slider .l_product_slider .owl-prev:hover, .home_l_product_slider .l_product_slider .owl-next:hover, .home_l_product_slider .home_l_product_slider .owl-prev:hover, .home_l_product_slider .home_l_product_slider .owl-next:hover {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.l_product_item {
+  margin-bottom: 30px;
+}
+
+.l_product_item .l_p_img {
+  position: relative;
+}
+
+.l_product_item .l_p_img img {
+  max-width: 100%;
+  border: 1px solid #cccccc;
+}
+
+.l_product_item .l_p_text {
+  text-align: center;
+  height: auto;
+  border: 1px solid #cccccc;
+  overflow: hidden;
+  background-color: #F1E0D6;
+}
+
+.l_product_item .l_p_text ul {
+  padding-top: 18px;
+  margin-bottom: 5px;
+  margin-top: -65px;
+  -webkit-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+
+.l_product_item .l_p_text ul li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.l_product_item .l_p_text ul li.p_icon {
+  vertical-align: top;
+}
+
+.l_product_item .l_p_text ul li.p_icon a {
+  border: 1px solid #999999;
+  font-size: 17px;
+  color: #999999;
+  display: inline-block;
+  padding: 0px 10px;
+  line-height: 38px;
+  position: relative;
+  top: 1px;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.l_product_item .l_p_text ul li.p_icon a:hover {
+  color: #000;
+}
+
+.l_product_item .l_p_text ul li:last-child {
+  margin-right: 0px;
+}
+
+.l_product_item .l_p_text h4 {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #000;
+  padding-bottom: 5px;
+  padding-top: 16px;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.l_product_item .l_p_text h5 {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #d91522;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.l_product_item .l_p_text h5 del {
+  font-size: 16px;
+  color: #666666;
+}
+
+.l_product_item:hover .l_p_text ul {
+  margin-top: 0px;
+}
+
+.l_product_item:hover .l_p_text h4 {
+  opacity: 0;
+}
+
+.l_product_item:hover .l_p_text h5 {
+  opacity: 0;
+}
+
+.add_cart_btn {
+  background: #262121;
+  color: #fff;
+  line-height: 38px;
+  border: 1px solid #262121;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .70px;
+  padding: 0px 15px;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+  font-family: "Poppins", sans-serif;
+}
+
+.add_cart_btn:hover {
+  color: #fff;
+  background: transparent;
+  color: #262121;
+}
+.add_cart_btn a {
+  text-decoration-style: none;
+}

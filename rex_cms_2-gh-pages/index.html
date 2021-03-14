@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./images/R.png">
+
+    <title> Rex CMS </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./bootstrap/css/dashboard.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-sm-offset-3 col-md-12 col-md-offset-0 main">
+
+          <!-- Search Start -->
+
+
+          <h1 class="page-header">Transaction - Transaction Link 1</h1>
+              <div class="well">
+                <div class="container" method="post" >
+
+                  <form role="form" id="transaction_section_2"  name="transaction_section_2" role="form" method="get" >
+
+                    <div class=" col-sm-2 placeholder">
+
+                      <div clss="dropdown">
+                        <h4>Status<span class="label label-default"></span></h4>
+                        <select class="form-control">
+                          <option>All</option>
+                          <option>Success</option>
+                          <option>Fail</option>
+                        </select>
+                      </div>
+
+                      <div class="dropdown">
+                        <h4>Pay method<span class="label label-default"></span></h4>
+                        <select name="trans_mode" class="form-control">
+                          <option value=""  >all</option>
+                          <option value="1" >credit card</option>
+                          <option value="2" >money</option>
+                        </select>
+                      </div>
+
+                      <div class="dropdown">
+                        <h4>Type<span class="label label-default"></span></h4>
+                        <select class="form-control">
+                          <option>type 1</option>
+                          <option>type 2</option>
+                        </select>
+                      </div>
+
+                      <div class="dropdown">
+                        <h4>Store<span class="label label-default"></span></h4>
+                        <select class="form-control">
+                          <option>all</option>
+                          <option>store 1</option>
+                          <option>store 2</option>
+                          <option>store 3</option>
+                        </select>
+                      </div>
+
+                    </div>
+
+
+
+
+                    <div class="col-sm-2 placeholder">
+
+                      <div class="form-group">
+                        <h4>date 1 start<span class="label label-default"></span></h4>
+                        <input type="text" class="form-control" placeholder="ex: 2000-01-01 00:00:00"  >
+                      </div>
+
+                      <div class="form-group">
+                        <h4>date 2 start<span class="label label-default"></span></h4>
+                        <input type="text" class="form-control" placeholder="ex: 2000-01-01 00:00:00" >
+                      </div>
+
+                      <div class="form-group">
+                        <h4>date 3 start<span class="label label-default"></span></h4>
+                        <input type="text" class="form-control" placeholder="ex: 2000-01-01 00:00:00" >
+                      </div>
+
+                    </div>
+
+
+                    <div class="col-sm-2 placeholder">
+
+                      <div class="form-group">
+                        <h4>date 1 end<span class="label label-default"></span></h4>
+                        <input type="text" class="form-control" placeholder="ex: 2020-01-01 00:00:00" >
+                      </div>
+
+                      <div class="form-group">
+                        <h4>date 2 end<span class="label label-default"></span></h4>
+                        <input type="text" class="form-control" placeholder="ex: 2020-01-01 00:00:00" >
+                      </div>
+
+                      <div class="form-group">
+                        <h4>date 3 end<span class="label label-default"></span></h4>
+                        <input type="text" class="form-control" placeholder="ex: 2020-01-01 00:00:00" >
+                      </div>
+
+                    </div>
+
+
+                    <div class="col-sm-1 placeholder">
+                      <br /><br />
+                      <a href="#" class="btn btn-lg btn-primary" id="form_submit" >Submit</a>
+
+                      <br /><br />
+                      <input type="hidden" id="download_check" name="download_check" value="no" />
+                      <a href="#" class="btn btn-lg btn-warning" id="download_submit" >Download</a>
+                    </div>
+
+
+                  </form>
+
+                </div>
+              </div>
+
+
+          <!-- Search End -->
+
+          <!-- Result Start -->
+          <h2 class="sub-header">Result</h2>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th style="width: 170px;" >id</th>
+                  <th style="width: 170px;" >date 1</th>
+                  <th style="width: 170px;" >date 2</th>
+                  <th style="width: 170px;" >date 3</th>
+                  <th style="width: 170px;" >date 4</th>
+                  <th style="width: 170px;" >date 5</th>
+                  <th style="width: 170px;" >order id</th>
+                  <th style="width: 170px;" >pat method</th>
+                  <th style="width: 170px;" >money 1</th>
+                  <th style="width: 170px;" >money 2</th>
+                  <th style="width: 170px;" >money 3</th>
+                  <th style="width: 170px;" >money 4</th>
+                  <th style="width: 170px;" >money 5</th>
+                  <th style="width: 170px;" >Log</th>
+                </tr>
+              </thead>
+              <tbody>
+
+                <tr>
+                  <td>A00000001</td>
+                  <td>2014-12-12 16:37:28</td>
+                  <td>0000-00-00 00:00:00</td>
+                  <td>0000-00-00 00:00:00</td>
+                  <td>2014-12-12 16:37:31</td>
+                  <td>0000-00-00 00:00:00</td>
+                  <td>A00000001</td>
+                  <td>credit card</td>
+                  <td>12345</td>
+                  <td>12345</td>
+                  <td>12345</td>
+                  <td>12345</td>
+                  <td>12345</td>
+                  <td>SnakeLu > RexLu</td>
+                  <td></td>
+                </tr>
+
+
+                <tr>
+                  <td>A00000001</td>
+                  <td>2014-12-12 16:37:28</td>
+                  <td>0000-00-00 00:00:00</td>
+                  <td>0000-00-00 00:00:00</td>
+                  <td>2014-12-12 16:37:31</td>
+                  <td>0000-00-00 00:00:00</td>
+                  <td>A00000001</td>
+                  <td>credit card</td>
+                  <td>12345</td>
+                  <td>12345</td>
+                  <td>12345</td>
+                  <td>12345</td>
+                  <td>12345</td>
+                  <td>SnakeLu > RexLu</td>
+                  <td></td>
+                </tr>
+
+
+                <tr>
+                  <td>A00000001</td>
+                  <td>2014-12-12 16:37:28</td>
+                  <td>0000-00-00 00:00:00</td>
+                  <td>0000-00-00 00:00:00</td>
+                  <td>2014-12-12 16:37:31</td>
+                  <td>0000-00-00 00:00:00</td>
+                  <td>A00000001</td>
+                  <td>credit card</td>
+                  <td>12345</td>
+                  <td>12345</td>
+                  <td>12345</td>
+                  <td>12345</td>
+                  <td>12345</td>
+                  <td>SnakeLu > RexLu</td>
+                  <td></td>
+                </tr>
+
+
+                <tr class="danger">
+                  <td>A00000001</td>
+                  <td>2014-12-12 16:37:28</td>
+                  <td>0000-00-00 00:00:00</td>
+                  <td>0000-00-00 00:00:00</td>
+                  <td>2014-12-12 16:37:31</td>
+                  <td>0000-00-00 00:00:00</td>
+                  <td>A00000001</td>
+                  <td>credit card</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>SnakeLu > RexLu</td>
+                  <td></td>
+                </tr>
+
+
+
+              </tbody>
+            </table>
+          </div>
+          <!-- Result End -->
+
+          <nav>
+            <ul class="pagination">
+              <li><a href="#" >&laquo;</a></li>
+
+              <li>
+                <a href="#" >
+                  <div style='color:red'>1</div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" >
+                  <div>2</div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" >
+                  <div>3</div>
+                </a>
+              </li>
+
+              <li><a href="#"  >&raquo;</a></li>
+            </ul>
+          </nav>
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./bootstrap/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
